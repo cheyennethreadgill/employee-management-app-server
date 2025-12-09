@@ -42,6 +42,8 @@ export const projects = database.collection("projects");
 export const users = database.collection("users");
 export const sessions = database.collection("sessions");
 
+console.log("server working");
+
 // const foundEmployee = await employees.findOne({ fname: "test" });
 // console.log(foundEmployee);
 
