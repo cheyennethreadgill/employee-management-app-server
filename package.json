@@ -6,8 +6,9 @@
     "node": "22.x"
   },
   "scripts": {
-    "start": "node server.js",
-    "test": "react-scripts test"
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
   },
   "jest": {
     "preset": "jest-mysql"
